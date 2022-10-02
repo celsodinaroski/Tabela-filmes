@@ -1,0 +1,31 @@
+{
+  "name": "projeto_anual",
+  "version": "1.0.0",
+  "description": "Projeto anual de Desenvolvimento de Aplicativos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "anual",
+    "desenvolvimento",
+    "aplicativos",
+    "express",
+    "javascript",
+    "html",
+    "css",
+    "sistema",
+    "completo",
+    "sistema"
+  ],
+  "author": "Celso Dinaroski Neto, Felipe Cepluki Lopes, Adriano dos Santos Lisboa, Guilherme Vinícius Tonioti.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  }
+}
