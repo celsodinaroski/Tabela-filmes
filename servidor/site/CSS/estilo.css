@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#menu {
+    width: 100%;
+    height: 40px;
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li {
+    width: 19%;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 09px 0px;
+}
+            
+#menu ul li a {
+    text-decoration: none;
+}
+
+ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#corpo {
+    width: 60%;
+    margin: auto;
+}
+
+#corpo p {
+    text-align: justify;
+}
+
+
+
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-top: 05px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link_arquivo {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid white;
+}
+
+.link_arquivo a {
+    text-decoration: none;  
+}
+
+.vingadores{
+    margin-top: 20px;
+}
+
+#formulario {
+    margin-top: -780px;
+}
+
+.link-formulario {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-right: 600px;
+}
+
+.link-formulario a {
+    text-decoration: none;
+}
+
+.link_estacoes {
+    display: inline-block;
+    padding: 10px 100px;
+    border: 1px solid white;
+}
+
+.link_jogo {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.link_jogo a {
+    text-decoration: none;
+}
+
+
+#footer h4 {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    color: black;
+}
+
+.imagem {
+    margin-bottom: 10px;
+}  
+
+
+a {
+    color: white;
+}
+
+table {
+    margin: auto;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+.developers {
+    margin-left: 20px;
+}
+
+#corpo table tr td {
+    padding: 14px;
+}
+
+#corpo {
+    margin-bottom: 20px;
+    margin-right: 500px;
+}
+
+#corpo table {
+    background-color: white;
+    color: black;
+}
+
+#corpo table tr th {
+    font-size: 20px;
+}
+
+form {
+    align-content: center;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 100%;
+    /* Apenas para centralizar o form na página */
+    margin: 96px 20px 20px auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.estilotextarea {
+    width:400px;
+    height:100px;
+    border: 2px solid #FFFFFF;
+}
+
+label {
+    color: white;
+}
+
+html {
+    background-color: black;
+}
+
+#input {
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+}
+
+#textarea {
+    border-radius: 10px 10px;
+}
+
+.primary-button {
+
+        margin: auto;
+    
+        width: 20%;
+        height: 40px;
+        border: 0;
+    
+        cursor: pointer;
+    
+        background: #CDCDCD;
+    
+        border-radius: 2rem;
+        color: black;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transition: background-color .2s;
+
+        font-family: 'Commissioner', sans-serif;
+        font-size: 100%;
+}
+    
+.primary-button:hover {
+    background:#FFFFFF ;
+}
+
+#img {
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.estacao_button {
+    background-color: #4D4DFF;
+    border: none;
+    color: white;
+    padding: 6px 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 05px 10px;
+}
+
+.estacao_button:hover {
+    background-color: #007FFF;
+    cursor: auto;
+}
+
+#imagens {
+    margin-top: 10px;
+}
+
+.trailer{
+    margin-top: 20px;
+}
+
+.sobre{
+    margin:0px 100px 0px 100px;
+}   
+
+.sobre p{
+    text-align:justify;
+}
+
+.cenas{
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+
+
+
+
+
+
+

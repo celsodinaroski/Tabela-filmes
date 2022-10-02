@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contato | Movies</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+    </head>
+    <body>
+        <script src="../JS/star.js"></script>
+
+        <h1>Movies</h1>
+
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cenas.html">Cenas</a></li>
+                <li><a href="trailer.html">Trailer</a></li>
+                <li><a href="contato.html">Contato</a></li> 
+            </ul>
+        </div>
+
+        <div id="corpo" class="contato">
+            <h2>Desenvolvedores</h2>
+
+            <table border="1" class="developers">
+                <tr>
+                    <th>Foto</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Gmail</th>
+                </tr>
+                <tr>
+                    <td><img src="img/img-Celso.gif" width="200"></td>
+                    <td>Celso Dinaroski Neto</td>
+                    <td>(+55) 41 998740-6970</td>
+                    <td>celsodinaroski@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img-Felipe.jpg" width="200"></td>
+                    <td>Felipe Cepluki Lopes</td>
+                    <td>(+55) 41 98812-6870</td>
+                    <td>felipecepluki@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img-Adriano.jpg" width="200" height="150"></td>
+                    <td>Adriano dos Santos Lisboa</td>
+                    <td>(+55) 41 99991-8948</td>
+                    <td>adrianosanlisboa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img-Guilherme.gif" width="200" height="150"></td>
+                    <td>Guilherme Vinícius Tonioti</td>
+                    <td>(+55) 41 98502-0625</td>
+                    <td>guilherme.tonioti@gmail.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="formulario">
+            <form action="#" class="form-inline" role="form">
+                <div class="requeridos">
+                    <label for="name">Nome:</label><br><br>
+                    <input type="text" class="form-control" id="input" placeholder="Digite seu nome" required></input><br><br>
+                </div>
+                <div class="requeridos">
+                    <label for="name">Email:</label><br><br>
+                    <input type="text" class="form-control" id="input"  placeholder="Digite seu email" required></input><br><br>
+                </div>
+                <div class="form-group">
+                    <label for="Opin.">Sugestões:</label><br /><br>
+                    <textarea name="Sugestões" class="estilotextarea" style="resize: none" id="textarea"></textarea><br /><br />
+                </div>
+                <div class="form-group">
+                    <label for="Problems">Teve problemas? cite-os abaixo:</label><br><br>
+                    <textarea name="Problems" class="estilotextarea" style="resize: none" id="textarea"></textarea><br><br>
+                </div>
+                <div class="form-group">
+                    <label for="Experiência">Como foi a sua experiência?</label><br><br>
+                    <a href="javascript:void(0)" onclick="Avaliar(1)">
+                    <img src="img/star0.png" id="s1"></a>
+                        
+                    <a href="javascript:void(0)" onclick="Avaliar(2)">
+                    <img src="img/star0.png" id="s2"></a>
+                        
+                    <a href="javascript:void(0)" onclick="Avaliar(3)">
+                    <img src="img/star0.png" id="s3"></a>
+                        
+                    <a href="javascript:void(0)" onclick="Avaliar(4)">
+                    <img src="img/star0.png" id="s4"></a>
+                        
+                    <a href="javascript:void(0)" onclick="Avaliar(5)">
+                    <img src="img/star0.png" id="s5"></a>
+                    <p id="rating">0</p>
+                </div>
+                <input type="submit" value="Enviar" class="primary-button" />
+            </form>
+        </div>
+
+        <div id="footer">
+            <h4>Todos os direitos reservados &copy; 2020</h4>
+        </div>
+    </body>
+</html>
